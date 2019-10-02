@@ -1,0 +1,16 @@
+/* pages/classification/classification.wxss */
+.icon{
+  width: 220rpx;
+  height: 220rpx;
+  margin: 20rpx 40rpx;
+  border-radius: 20rpx;
+}
+.classification-select{
+  width: 300rpx;
+  padding: 37.5rpx;
+  float: left;
+}
+.classification {
+  position: relative;
+  top: 150rpx;
+}

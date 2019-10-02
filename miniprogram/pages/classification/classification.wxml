@@ -1,0 +1,6 @@
+<!--pages/classification/classification.wxml-->
+<view class="classification">
+  <view class="classification-select " wx:for="{{ColorList}}" bindtap="onClick"  data-index='{{index}}' wx:key>
+    <image class="icon" src='{{item}}'></image>
+  </view>
+</view>
