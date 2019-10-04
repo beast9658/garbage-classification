@@ -16,8 +16,8 @@ exports.main = async(event, context) => {
         url,
         form: {
           "grant_type": grantType,
-          "client_secret": 'pZ17hbjXl5vgQi3yxEVwz9Dah54R719e',
-          "client_id": 'VZRLG6L9XlxjZf6YkTVrAAZv'
+          "client_secret": secretKey,
+          "client_id": apiKey
         },
         json: true
       })
